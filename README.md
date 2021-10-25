@@ -2,4 +2,5 @@
 import blend_shape
 
 Bslink = blend_shape.BslinkClass()
+
 Bslink.show_win()
