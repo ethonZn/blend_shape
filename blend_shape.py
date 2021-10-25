@@ -34,5 +34,3 @@ class BslinkClass():
                         cmds.setDrivenKeyframe('%s.%s'%(selblend,n),dv=0,v=0,cd='%s.%s'%(lisths[seqz][0],facename))#驱动关键帧       
                         cmds.setDrivenKeyframe('%s.%s'%(selblend,n),dv=10,v=1,cd='%s.%s'%(lisths[seqz][0],facename))#驱动关键帧
                         cmds.warning('%s is OK'%('%s.%s'%(selblend,n)))#输出结果                      	        
-Bslink = BslinkClass()
-Bslink.show_win()
